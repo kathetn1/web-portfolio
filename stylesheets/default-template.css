@@ -1,0 +1,102 @@
+/* DEFAULT TEMPLATE */
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 10% 0 10%;
+	padding: 0;
+	background: #c6b3bb url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.header {
+	position: relative;
+}
+
+.header h3 {
+	text-align: right;
+}
+
+#ktn {
+	width: 50%;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	padding: 2em 0 2em 0;
+}
+
+.footer {
+	display: block;
+	position: relative;
+	text-align: right;
+}
+
+<!-- LINKS -->
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	text-decoration: none;
+	color: #333;
+	/*text-decoration: underline;  unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	font-style: italic;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* DROPDOWN BUTTON */
+.dropbtn {
+	border-radius: .5em;	
+	border: 2px solid #333;
+	background-color: transparent;
+	color: #333;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: .1em 0 .1em 0;
+	cursor: pointer;
+	width: 100%;
+}
+.dropbtn h3 {
+	font-size: 1.25em;
+	text-align: center;
+}
+.dropbtn:hover, .dropbtn:focus {
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	border-color: #fff;
+	border-style: solid;
+}
+.dropdown {
+	display: compact;
+}
+.drop-content {
+	display: none;
+	background-color: rgba(0,0,0,.2);
+	width: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: center;
+	border-radius: 0 0 .5em .5em;
+}
+.drop-content a {
+	color: #333;
+	text-decoration: none;
+	padding: .1em 0 .1em 0; 
+	display: block;
+}
+.drop-content a:hover {
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	border-radius: .5em;
+/*	padding: auto; */
+}
+.show {display: block;}

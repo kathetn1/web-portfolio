@@ -1,0 +1,22 @@
+/* RESPONSIVE WEB DESIGN */
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1000px) {
+	body {font-size: 100%;}
+	.dropbtn {font-size: 1em;}
+}
+@media only screen and (max-width: 750px) {
+	body {font-size: 75%;}
+	.dropbtn {
+		font-size: .75em;
+		border: 1px solid #333;
+	}
+}
+@media only screen and (max-width: 500px) {
+	body {font-size: 50%;}
+	.dropbtn {
+		font-size: .5em;
+		border: 1px solid #333;
+	}
+}	
