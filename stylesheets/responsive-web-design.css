@@ -12,11 +12,17 @@
 		font-size: .75em;
 		border: 1px solid #333;
 	}
+	.drop-content {
+		font-size: .75em;
+	}
 }
 @media only screen and (max-width: 500px) {
 	body {font-size: 50%;}
 	.dropbtn {
 		font-size: .5em;
 		border: 1px solid #333;
+	}
+	.drop-content {
+		font-size: .55em;
 	}
 }	
