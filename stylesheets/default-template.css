@@ -4,9 +4,9 @@
 /* CSS Document */
 
 body {
-	margin: 0 10% 0 10%;
+	margin: 0 15% 0 15%;
 	padding: 0;
-	background: #c6b3bb url(../img/background.jpg);
+	background: #febe9d url(../img/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -31,6 +31,7 @@ body {
 
 .content {
 	padding: 2em 0 2em 0;
+	width: 100%;
 }
 
 .footer {
@@ -63,29 +64,34 @@ a img { /* this selector removes the default blue border displayed in some brows
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	padding: .1em 0 .1em 0;
 	cursor: pointer;
-	width: 100%;
+	width: 75%;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 .dropbtn h3 {
 	font-size: 1.25em;
 	text-align: center;
 }
 .dropbtn:hover, .dropbtn:focus {
-	background-color: rgba(0,0,0,.4);
-	color: #fff;
-	border-color: #fff;
-	border-style: solid;
+	background-color: rgba(255,102,102,.5);
 }
 .dropdown {
 	display: compact;
 }
 .drop-content {
-	display: none;
-	background-color: rgba(0,0,0,.2);
-	width: 100%;
+	display: none; /*
+	background-color: rgba(255,153,102,.2); 
+	background-color: rgba(0,0,0,.2); */
+	width: 75%;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	border-radius: 0 0 .5em .5em;
+	line-height: 20%;
 }
 .drop-content a {
 	color: #333;
