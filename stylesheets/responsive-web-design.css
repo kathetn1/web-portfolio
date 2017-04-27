@@ -5,6 +5,7 @@
 @media only screen and (max-width: 1000px) {
 	body {font-size: 100%;}
 	.dropbtn {font-size: 1em;}
+	.top-nav p {font-size: .9em;}	
 }
 @media only screen and (max-width: 750px) {
 	body {font-size: 75%;}
@@ -12,17 +13,17 @@
 		font-size: .75em;
 		border: 1px solid #333;
 	}
-	.drop-content {
-		font-size: .75em;
-	}
+	.drop-content {font-size: .75em;}
+
+	.top-nav p {font-size: .8em;}	
 }
 @media only screen and (max-width: 500px) {
 	body {font-size: 50%;}
 	.dropbtn {
 		font-size: .5em;
 		border: 1px solid #333;
+		width: 100%;
 	}
-	.drop-content {
-		font-size: .55em;
-	}
+	.drop-content {font-size: .55em;}
+	.top-nav p {font-size: .75em;}
 }	
